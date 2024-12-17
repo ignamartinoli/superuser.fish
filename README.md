@@ -1,8 +1,12 @@
-# Superuser
+# 🧢 Superuser
 
-> 💡 Become a superuser on the fly
+> ⚡ Become a superuser on the fly
 
-A Fish shell plugin that prepends a superuser utility (`sudo` or `doas`) to the current command if not already present.
+A Fish shell plugin
+that prepends
+a superuser utility (`sudo` or `doas`)
+to the current command
+if not already present.
 
 ## 🛠 Support
 
@@ -21,7 +25,9 @@ fisher install ignamartinoli/superuser.fish
 
 # 🔧 Usage
 
-Just bind the `superuser` function in your `config.fish` to a key:
+Just bind the `superuser` function
+in your `config.fish`
+to a key:
 
 ```fish
 bind \cS superuser
